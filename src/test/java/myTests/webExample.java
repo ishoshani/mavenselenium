@@ -64,6 +64,7 @@ import org.testng.annotations.*;
 		      dc.setCapability("generateReport", true);
 		      dc.setCapability("testName", testName+testnum);
 		      dc.setCapability("acceptInsecureCerts", true);
+		      dc.setCapability("stream","IdoSMavenSelenium");
 		      System.out.println(dc);
 		      System.out.println(CLOUDURL);		  
 		      this.driver = new RemoteWebDriver(new URL(CLOUDURL), dc);

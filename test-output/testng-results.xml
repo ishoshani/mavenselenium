@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="233417" started-at="2018-02-18T20:46:02Z" finished-at="2018-02-18T20:49:56Z">
+    <groups>
+    </groups>
+    <test name="TestFirefox" duration-ms="22830" started-at="2018-02-18T20:46:02Z" finished-at="2018-02-18T20:46:25Z">
+      <class name="myTests.webExample">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:myTests.webExample@71e53b]" name="setup" is-config="true" duration-ms="7137" started-at="2018-02-18T22:46:02Z" finished-at="2018-02-18T22:46:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TitleTest()[pri:0, instance:myTests.webExample@71e53b]" name="TitleTest" duration-ms="15206" started-at="2018-02-18T22:46:09Z" finished-at="2018-02-18T22:46:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:myTests.webExample@71e53b]" name="teardown" is-config="true" duration-ms="457" started-at="2018-02-18T22:46:25Z" finished-at="2018-02-18T22:46:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- myTests.webExample -->
+    </test> <!-- TestFirefox -->
+    <test name="TestChrome" duration-ms="17769" started-at="2018-02-18T20:46:25Z" finished-at="2018-02-18T20:46:43Z">
+      <class name="myTests.webExample">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:myTests.webExample@e6aa2]" name="setup" is-config="true" duration-ms="3488" started-at="2018-02-18T22:46:25Z" finished-at="2018-02-18T22:46:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrme]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TitleTest()[pri:0, instance:myTests.webExample@e6aa2]" name="TitleTest" duration-ms="13972" started-at="2018-02-18T22:46:29Z" finished-at="2018-02-18T22:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:myTests.webExample@e6aa2]" name="teardown" is-config="true" duration-ms="305" started-at="2018-02-18T22:46:43Z" finished-at="2018-02-18T22:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- myTests.webExample -->
+    </test> <!-- TestChrome -->
+    <test name="TestIEs" duration-ms="3786" started-at="2018-02-18T20:46:43Z" finished-at="2018-02-18T20:46:47Z">
+      <class name="myTests.webExample">
+        <test-method status="FAIL" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:myTests.webExample@485a47]" name="setup" is-config="true" duration-ms="3762" started-at="2018-02-18T22:46:43Z" finished-at="2018-02-18T22:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Invalid timeout type specified: msBuild info: version: '3.6.0', revision: '37084fe', time: '2018-01-15T13:49:38.377Z'System info: host: 'SALES-DHM2', ip: '62.90.196.37', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_74'Driver info: driver.version: unknownCommand duration or timeout: 413 millisecondsBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'System info: host: 'idoshoshani-lt', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities [{proxy={}, acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0, ie.ensureCleanSession=false, elementScrollBehavior=0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:28974/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ignoreProtectedModeSettings=false}, timeouts={implicit=0, pageLoad=300000, script=30000}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, reportUrl=https://sales-reporter.experitest.com/#/test/5490, platformName=windows, setWindowRect=true, platform=ANY}]Session ID: d7a5be09-70b0-464a-b60c-377b9ad2c432]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Invalid timeout type specified: msBuild info: version: '3.6.0', revision: '37084fe', time: '2018-01-15T13:49:38.377Z'System info: host: 'SALES-DHM2', ip: '62.90.196.37', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_74'Driver info: driver.version: unknownCommand duration or timeout: 413 millisecondsBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'System info: host: 'idoshoshani-lt', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities [{proxy={}, acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0, ie.ensureCleanSession=false, elementScrollBehavior=0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:28974/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ignoreProtectedModeSettings=false}, timeouts={implicit=0, pageLoad=300000, script=30000}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, reportUrl=https://sales-reporter.experitest.com/#/test/5490, platformName=windows, setWindowRect=true, platform=ANY}]Session ID: d7a5be09-70b0-464a-b60c-377b9ad2c432at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.lang.reflect.Constructor.newInstance(Constructor.java:423)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:865)at myTests.webExample.setup(webExample.java:71)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)Caused by: org.openqa.selenium.WebDriverException: Invalid timeout type specified: msBuild info: version: '3.6.0', revision: '37084fe', time: '2018-01-15T13:49:38.377Z'System info: host: 'SALES-DHM2', ip: '62.90.196.37', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_74'Driver info: driver.version: unknownBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'System info: host: 'idoshoshani-lt', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_151'Driver info: driver.version: unknown]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="TitleTest()[pri:0, instance:myTests.webExample@485a47]" name="TitleTest" duration-ms="0" started-at="2018-02-18T22:46:47Z" finished-at="2018-02-18T22:46:47Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Invalid timeout type specified: msBuild info: version: '3.6.0', revision: '37084fe', time: '2018-01-15T13:49:38.377Z'System info: host: 'SALES-DHM2', ip: '62.90.196.37', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_74'Driver info: driver.version: unknownCommand duration or timeout: 413 millisecondsBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'System info: host: 'idoshoshani-lt', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities [{proxy={}, acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0, ie.ensureCleanSession=false, elementScrollBehavior=0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:28974/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ignoreProtectedModeSettings=false}, timeouts={implicit=0, pageLoad=300000, script=30000}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, reportUrl=https://sales-reporter.experitest.com/#/test/5490, platformName=windows, setWindowRect=true, platform=ANY}]Session ID: d7a5be09-70b0-464a-b60c-377b9ad2c432]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Invalid timeout type specified: msBuild info: version: '3.6.0', revision: '37084fe', time: '2018-01-15T13:49:38.377Z'System info: host: 'SALES-DHM2', ip: '62.90.196.37', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_74'Driver info: driver.version: unknownCommand duration or timeout: 413 millisecondsBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'System info: host: 'idoshoshani-lt', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities [{proxy={}, acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0, ie.ensureCleanSession=false, elementScrollBehavior=0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:28974/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ignoreProtectedModeSettings=false}, timeouts={implicit=0, pageLoad=300000, script=30000}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, reportUrl=https://sales-reporter.experitest.com/#/test/5490, platformName=windows, setWindowRect=true, platform=ANY}]Session ID: d7a5be09-70b0-464a-b60c-377b9ad2c432at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.lang.reflect.Constructor.newInstance(Constructor.java:423)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:865)at myTests.webExample.setup(webExample.java:71)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)Caused by: org.openqa.selenium.WebDriverException: Invalid timeout type specified: msBuild info: version: '3.6.0', revision: '37084fe', time: '2018-01-15T13:49:38.377Z'System info: host: 'SALES-DHM2', ip: '62.90.196.37', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_74'Driver info: driver.version: unknownBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'System info: host: 'idoshoshani-lt', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_151'Driver info: driver.version: unknown]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleTest -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:myTests.webExample@485a47]" name="teardown" is-config="true" duration-ms="0" started-at="2018-02-18T22:46:47Z" finished-at="2018-02-18T22:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- myTests.webExample -->
+    </test> <!-- TestIEs -->
+    <test name="TestIOS" duration-ms="120976" started-at="2018-02-18T20:46:47Z" finished-at="2018-02-18T20:48:48Z">
+      <class name="myTests.webExample">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:myTests.webExample@124411f]" name="setup" is-config="true" duration-ms="57709" started-at="2018-02-18T22:46:47Z" finished-at="2018-02-18T22:47:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TitleTest()[pri:0, instance:myTests.webExample@124411f]" name="TitleTest" duration-ms="59392" started-at="2018-02-18T22:47:44Z" finished-at="2018-02-18T22:48:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:myTests.webExample@124411f]" name="teardown" is-config="true" duration-ms="3873" started-at="2018-02-18T22:48:44Z" finished-at="2018-02-18T22:48:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- myTests.webExample -->
+    </test> <!-- TestIOS -->
+    <test name="TestAndroid" duration-ms="67945" started-at="2018-02-18T20:48:48Z" finished-at="2018-02-18T20:49:56Z">
+      <class name="myTests.webExample">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:myTests.webExample@da0940]" name="setup" is-config="true" duration-ms="15867" started-at="2018-02-18T22:48:48Z" finished-at="2018-02-18T22:49:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="TitleTest()[pri:0, instance:myTests.webExample@da0940]" name="TitleTest" duration-ms="45124" started-at="2018-02-18T22:49:04Z" finished-at="2018-02-18T22:49:49Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error (An unknown server-side error occurred. status='false'. Failed to complete internal method: 'launch args: [chrome:https://experitest.com/, false, false]', details: Failed to navigate to chrome:https://experitest.com/)  (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 45.12 secondsBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'System info: host: 'idoshoshani-lt', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities [{device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANDROID, desired={generateReport=true, acceptInsecureCerts=true, browserName=android, platformName=android, version=, platform=ANDROID, testName=Get Table Test Android5}, device.serialNumber=N2K7N16811000808, device.version=5.0.1, acceptInsecureCerts=true, browserName=android, reportDirectory=reports, autoWebview=false, platformName=android, testName=Get Table Test Android5, device.screenSize=720x1280, useKeystore=false, cloudViewLink=http://sales.experitest.com/agent-11/#/qE3WNWsHsf9xdXeb?1Picked up Grid Node (seetest_7798)Reserved Device : HUAWEI ALE-L02, generateReport=true, device.manufacture=HUAWEI, instrumentApp=false, device.category=PHONE, autoDismissAlerts=false, reportUrl=https://sales-reporter.experitest.com/#/test/5492, version=, keystorePath=~/.android/debug.keystore, waitForDeviceTimeout=120000, device.model=ALE-L02, device.name=HUAWEI ALE-L02, projectName=, gridNodePort=7798, autoAcceptAlerts=false}]Session ID: CLOUD-SID:2018-02-18_22-48-29-8b662e81-f278-4b54-84ae-1be8be809005]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error (An unknown server-side error occurred. status='false'. Failed to complete internal method: 'launch args: [chrome:https://experitest.com/, false, false]', details: Failed to navigate to chrome:https://experitest.com/)  (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 45.12 secondsBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'System info: host: 'idoshoshani-lt', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_151'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities [{device.majorVersion=5.0.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANDROID, desired={generateReport=true, acceptInsecureCerts=true, browserName=android, platformName=android, version=, platform=ANDROID, testName=Get Table Test Android5}, device.serialNumber=N2K7N16811000808, device.version=5.0.1, acceptInsecureCerts=true, browserName=android, reportDirectory=reports, autoWebview=false, platformName=android, testName=Get Table Test Android5, device.screenSize=720x1280, useKeystore=false, cloudViewLink=http://sales.experitest.com/agent-11/#/qE3WNWsHsf9xdXeb?1Picked up Grid Node (seetest_7798)Reserved Device : HUAWEI ALE-L02, generateReport=true, device.manufacture=HUAWEI, instrumentApp=false, device.category=PHONE, autoDismissAlerts=false, reportUrl=https://sales-reporter.experitest.com/#/test/5492, version=, keystorePath=~/.android/debug.keystore, waitForDeviceTimeout=120000, device.model=ALE-L02, device.name=HUAWEI ALE-L02, projectName=, gridNodePort=7798, autoAcceptAlerts=false}]Session ID: CLOUD-SID:2018-02-18_22-48-29-8b662e81-f278-4b54-84ae-1be8be809005at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.lang.reflect.Constructor.newInstance(Constructor.java:423)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)at myTests.webExample.TitleTest(webExample.java:77)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:myTests.webExample@da0940]" name="teardown" is-config="true" duration-ms="6948" started-at="2018-02-18T22:49:49Z" finished-at="2018-02-18T22:49:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- myTests.webExample -->
+    </test> <!-- TestAndroid -->
+  </suite> <!-- Suite -->
+</testng-results>

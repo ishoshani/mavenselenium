@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.myexperitest</groupId>
+  <artifactId>mavenselenium</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>mavenselenium</name>
+   <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  <repositories>
+            <repository>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>fail</checksumPolicy>
+            </releases>
+            <id>Experitest.repo1</id>
+            <name>YourName</name>
+            <url>https://cloud.experitest.com/repo/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+    <dependencies>
+     <dependency>
+    <groupId>com.experitest</groupId>
+    <artifactId>appium</artifactId>
+    <version>4.1.2</version>
+    </dependency>
+    <dependency>
+  <groupId>org.testng</groupId>
+  <artifactId>testng</artifactId>
+  <version>6.8</version>
+  <scope>test</scope>
+</dependency>
+
+</dependencies>
+</project>
